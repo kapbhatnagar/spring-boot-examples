@@ -1,0 +1,27 @@
+Download- kafka_2.11-2.1.0.tgz(http://kafka.apache.org/downloads.html)
+Extract and open kafka folder
+Now open command window with same path
+------------
+Commands
+1) Update property files:
+	1.1 zookeeper.properties(\kafka_2.12-2.1.0\config)
+	dataDir=E:/conf/Kafka/kafka_2.12-2.1.0/zookeepermy-zooker-logs
+	1.2 service.properties(\kafka_2.12-2.1.0\config)
+	1.3 log.dirs=<win_loc> e.g. log.dirs=E:/conf/Kafka/kafka_2.12-2.1.0/my-development-logs
+	1.4 listeners=PLAINTEXT://0.0.0.0:9092 
+	1.5 advertised.listeners=PLAINTEXT://localhost:9092
+2) Run zooker
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+3)Start broker
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+4)Create topic
+.\bin\windows\kafka-topics.bat --create --topic my_topic --zookeeper localhost:2181 -replication-factor 1 --partitions 1
+5)To see all topics attach to particular instance of zookeeper-> .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+6)Console Producer
+.\bin\windows\kafka-console-producer.bat --broker-list 0.0.0.0:9092 --topic my_topic
+7)Console Consumer
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic my_topic --from-beginning
+
+.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+.\bin\windows\kafka-topics.bat --describe --topic my_topic --zookeeper localhost:2181
+.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic my_topic

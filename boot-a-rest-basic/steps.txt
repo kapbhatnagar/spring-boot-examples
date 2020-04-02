@@ -1,0 +1,4 @@
+# This is an maven project
+	# So, import it as an maven project
+	# If facing issue, once project is imported. Right click project Maven -> Update Project
+	# Run RestBasicApplication as main program

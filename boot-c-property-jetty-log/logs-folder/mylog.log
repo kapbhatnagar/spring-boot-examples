@@ -1,0 +1,155 @@
+2020-03-27 15:19:49.284  INFO 32092 --- [main] com.boot.BootJettyApplication            : Starting BootJettyApplication on kapil3865-01 with PID 32092 (E:\Workspace\Spring_WorkSpace\boot-b-property-jetty\target\classes started by kapilbhatnagar in E:\Workspace\Spring_WorkSpace\boot-b-property-jetty)
+2020-03-27 15:19:49.289 DEBUG 32092 --- [main] com.boot.BootJettyApplication            : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-27 15:19:49.289  INFO 32092 --- [main] com.boot.BootJettyApplication            : The following profiles are active: UAT
+2020-03-27 15:19:50.687  INFO 32092 --- [main] com.boot.BootJettyApplication            : Started BootJettyApplication in 1.818 seconds (JVM running for 2.643)
+2020-03-27 15:20:00.201 ERROR 32092 --- [qtp23076423-20] com.boot.ExecuterEg                      : -============----------------
+2020-03-27 15:22:07.788  INFO 73268 --- [main] com.boot.BootJettyApplication            : Starting BootJettyApplication on kapil3865-01 with PID 73268 (E:\Workspace\Spring_WorkSpace\boot-b-property-jetty\target\classes started by kapilbhatnagar in E:\Workspace\Spring_WorkSpace\boot-b-property-jetty)
+2020-03-27 15:22:07.791 DEBUG 73268 --- [main] com.boot.BootJettyApplication            : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-27 15:22:07.792  INFO 73268 --- [main] com.boot.BootJettyApplication            : The following profiles are active: UAT
+2020-03-27 15:22:09.134  INFO 73268 --- [main] com.boot.BootJettyApplication            : Started BootJettyApplication in 1.805 seconds (JVM running for 2.619)
+2020-03-27 15:22:15.244  INFO 73268 --- [qtp1339345635-21] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:22:15.244 DEBUG 73268 --- [pool-1-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-1-thread-1
+2020-03-27 15:22:15.245 DEBUG 73268 --- [pool-1-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-1-thread-2
+2020-03-27 15:22:15.245 DEBUG 73268 --- [pool-1-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-1-thread-3
+2020-03-27 15:22:15.245 DEBUG 73268 --- [pool-1-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-1-thread-4
+2020-03-27 15:22:15.846 DEBUG 73268 --- [pool-1-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-1-thread-1
+2020-03-27 15:22:15.846 DEBUG 73268 --- [pool-1-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-1-thread-3
+2020-03-27 15:22:15.846 DEBUG 73268 --- [pool-1-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-1-thread-4
+2020-03-27 15:22:15.846 DEBUG 73268 --- [pool-1-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-1-thread-2
+2020-03-27 15:22:15.846 DEBUG 73268 --- [pool-1-thread-1] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-1-thread-1
+2020-03-27 15:22:16.447 DEBUG 73268 --- [pool-1-thread-1] com.boot.ExecuterEg                      : Completed processFive from thread:pool-1-thread-1
+2020-03-27 15:22:28.476  INFO 73268 --- [qtp1339345635-17] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:22:28.476 DEBUG 73268 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-2-thread-1
+2020-03-27 15:22:28.477 DEBUG 73268 --- [pool-2-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-2-thread-2
+2020-03-27 15:22:28.477 DEBUG 73268 --- [pool-2-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-2-thread-3
+2020-03-27 15:22:28.477 DEBUG 73268 --- [pool-2-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-2-thread-4
+2020-03-27 15:22:29.078 DEBUG 73268 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-2-thread-1
+2020-03-27 15:22:29.078 DEBUG 73268 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-2-thread-1
+2020-03-27 15:22:29.078 DEBUG 73268 --- [pool-2-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-2-thread-2
+2020-03-27 15:22:29.078 DEBUG 73268 --- [pool-2-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-2-thread-3
+2020-03-27 15:22:29.079 DEBUG 73268 --- [pool-2-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-2-thread-4
+2020-03-27 15:22:29.679 DEBUG 73268 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Completed processFive from thread:pool-2-thread-1
+2020-03-27 15:22:45.114  INFO 73268 --- [qtp1339345635-20] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:22:45.114 DEBUG 73268 --- [pool-3-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-3-thread-1
+2020-03-27 15:22:45.114 DEBUG 73268 --- [pool-3-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-3-thread-2
+2020-03-27 15:22:45.114 DEBUG 73268 --- [pool-3-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-3-thread-3
+2020-03-27 15:22:45.114 DEBUG 73268 --- [pool-3-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-3-thread-4
+2020-03-27 15:22:45.714 DEBUG 73268 --- [pool-3-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-3-thread-4
+2020-03-27 15:22:45.715 DEBUG 73268 --- [pool-3-thread-4] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-3-thread-4
+2020-03-27 15:22:45.716 DEBUG 73268 --- [pool-3-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-3-thread-3
+2020-03-27 15:22:45.716 DEBUG 73268 --- [pool-3-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-3-thread-2
+2020-03-27 15:22:45.717 DEBUG 73268 --- [pool-3-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-3-thread-1
+2020-03-27 15:22:46.316 DEBUG 73268 --- [pool-3-thread-4] com.boot.ExecuterEg                      : Completed processFive from thread:pool-3-thread-4
+2020-03-27 15:22:59.570  INFO 73268 --- [qtp1339345635-22] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:22:59.571 DEBUG 73268 --- [pool-4-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-4-thread-1
+2020-03-27 15:22:59.571 DEBUG 73268 --- [pool-4-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-4-thread-2
+2020-03-27 15:22:59.571 DEBUG 73268 --- [pool-4-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-4-thread-3
+2020-03-27 15:22:59.571 DEBUG 73268 --- [pool-4-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-4-thread-4
+2020-03-27 15:23:00.175 DEBUG 73268 --- [pool-4-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-4-thread-4
+2020-03-27 15:23:00.176 DEBUG 73268 --- [pool-4-thread-4] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-4-thread-4
+2020-03-27 15:23:00.176 DEBUG 73268 --- [pool-4-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-4-thread-2
+2020-03-27 15:23:00.176 DEBUG 73268 --- [pool-4-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-4-thread-3
+2020-03-27 15:23:00.176 DEBUG 73268 --- [pool-4-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-4-thread-1
+2020-03-27 15:23:00.776 DEBUG 73268 --- [pool-4-thread-4] com.boot.ExecuterEg                      : Completed processFive from thread:pool-4-thread-4
+2020-03-27 15:23:05.654  INFO 73268 --- [qtp1339345635-20] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:23:05.655 DEBUG 73268 --- [pool-5-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-5-thread-2
+2020-03-27 15:23:05.655 DEBUG 73268 --- [pool-5-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-5-thread-1
+2020-03-27 15:23:05.655 DEBUG 73268 --- [pool-5-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-5-thread-3
+2020-03-27 15:23:05.655 DEBUG 73268 --- [pool-5-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-5-thread-4
+2020-03-27 15:23:06.255 DEBUG 73268 --- [pool-5-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-5-thread-1
+2020-03-27 15:23:06.255 DEBUG 73268 --- [pool-5-thread-1] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-5-thread-1
+2020-03-27 15:23:06.255 DEBUG 73268 --- [pool-5-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-5-thread-3
+2020-03-27 15:23:06.255 DEBUG 73268 --- [pool-5-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-5-thread-4
+2020-03-27 15:23:06.255 DEBUG 73268 --- [pool-5-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-5-thread-2
+2020-03-27 15:23:06.856 DEBUG 73268 --- [pool-5-thread-1] com.boot.ExecuterEg                      : Completed processFive from thread:pool-5-thread-1
+2020-03-27 15:28:03.159  INFO 39484 --- [main] com.boot.BootJettyApplication            : Starting BootJettyApplication on kapil3865-01 with PID 39484 (E:\Workspace\Spring_WorkSpace\boot-b-property-jetty-log\target\classes started by kapilbhatnagar in E:\Workspace\Spring_WorkSpace\boot-b-property-jetty-log)
+2020-03-27 15:28:03.162 DEBUG 39484 --- [main] com.boot.BootJettyApplication            : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-27 15:28:03.162  INFO 39484 --- [main] com.boot.BootJettyApplication            : No active profile set, falling back to default profiles: default
+2020-03-27 15:28:04.683  INFO 39484 --- [main] com.boot.BootJettyApplication            : Started BootJettyApplication in 1.908 seconds (JVM running for 2.738)
+2020-03-27 15:28:55.376  INFO 21312 --- [main] com.boot.BootJettyApplication            : Starting BootJettyApplication on kapil3865-01 with PID 21312 (E:\Workspace\Spring_WorkSpace\boot-b-property-jetty-log\target\classes started by kapilbhatnagar in E:\Workspace\Spring_WorkSpace\boot-b-property-jetty-log)
+2020-03-27 15:28:55.379 DEBUG 21312 --- [main] com.boot.BootJettyApplication            : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-27 15:28:55.380  INFO 21312 --- [main] com.boot.BootJettyApplication            : No active profile set, falling back to default profiles: default
+2020-03-27 15:28:56.495  INFO 21312 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2337ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-03-27 15:28:56.564  INFO 21312 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2020-03-27 15:28:56.567  INFO 21312 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_151-b12
+2020-03-27 15:28:56.588  INFO 21312 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2020-03-27 15:28:56.588  INFO 21312 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1131 ms
+2020-03-27 15:28:56.680  INFO 21312 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2020-03-27 15:28:56.681  INFO 21312 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2020-03-27 15:28:56.682  INFO 21312 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2020-03-27 15:28:56.689  INFO 21312 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@62df0ff3{application,/,[file:///C:/Users/kapilbhatnagar/AppData/Local/Temp/jetty-docbase.8268655543391026193.8080/],AVAILABLE}
+2020-03-27 15:28:56.689  INFO 21312 --- [main] org.eclipse.jetty.server.Server          : Started @2533ms
+2020-03-27 15:28:56.802  INFO 21312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:28:56.959  INFO 21312 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 15:28:56.960  INFO 21312 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-27 15:28:56.965  INFO 21312 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-03-27 15:28:56.977  INFO 21312 --- [main] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@7a11c4c7{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2020-03-27 15:28:56.977  INFO 21312 --- [main] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2020-03-27 15:28:56.979  INFO 21312 --- [main] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-03-27 15:28:56.979  INFO 21312 --- [main] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@62df0ff3{application,/,[file:///C:/Users/kapilbhatnagar/AppData/Local/Temp/jetty-docbase.8268655543391026193.8080/],UNAVAILABLE}
+2020-03-27 15:28:56.983  INFO 21312 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-27 15:28:56.984 ERROR 21312 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2020-03-27 15:28:56.990  INFO 21312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:29:46.614  INFO 92056 --- [main] com.boot.BootJettyApplication            : Starting BootJettyApplication on kapil3865-01 with PID 92056 (E:\Workspace\Spring_WorkSpace\boot-b-property-jetty-log\target\classes started by kapilbhatnagar in E:\Workspace\Spring_WorkSpace\boot-b-property-jetty-log)
+2020-03-27 15:29:46.617 DEBUG 92056 --- [main] com.boot.BootJettyApplication            : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-03-27 15:29:46.617  INFO 92056 --- [main] com.boot.BootJettyApplication            : The following profiles are active: UAT
+2020-03-27 15:29:47.530  INFO 92056 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2074ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-03-27 15:29:47.629  INFO 92056 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8181
+2020-03-27 15:29:47.633  INFO 92056 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_151-b12
+2020-03-27 15:29:47.655  INFO 92056 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2020-03-27 15:29:47.656  INFO 92056 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 984 ms
+2020-03-27 15:29:47.789  INFO 92056 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2020-03-27 15:29:47.789  INFO 92056 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2020-03-27 15:29:47.790  INFO 92056 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2020-03-27 15:29:47.797  INFO 92056 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@61019f59{application,/,[file:///C:/Users/kapilbhatnagar/AppData/Local/Temp/jetty-docbase.2661378957983337315.8181/],AVAILABLE}
+2020-03-27 15:29:47.797  INFO 92056 --- [main] org.eclipse.jetty.server.Server          : Started @2343ms
+2020-03-27 15:29:47.938  INFO 92056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:29:48.107  INFO 92056 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 15:29:48.107  INFO 92056 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-27 15:29:48.113  INFO 92056 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-27 15:29:48.146  INFO 92056 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@4cc547a{HTTP/1.1, (http/1.1)}{0.0.0.0:8181}
+2020-03-27 15:29:48.147  INFO 92056 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8181 (http/1.1) with context path '/'
+2020-03-27 15:29:48.150  INFO 92056 --- [main] com.boot.BootJettyApplication            : Started BootJettyApplication in 1.904 seconds (JVM running for 2.696)
+2020-03-27 15:29:56.677  INFO 92056 --- [qtp938405008-21] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:29:56.678 DEBUG 92056 --- [pool-1-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-1-thread-1
+2020-03-27 15:29:56.678 DEBUG 92056 --- [pool-1-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-1-thread-2
+2020-03-27 15:29:56.678 DEBUG 92056 --- [pool-1-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-1-thread-3
+2020-03-27 15:29:56.679 DEBUG 92056 --- [pool-1-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-1-thread-4
+2020-03-27 15:29:57.279 DEBUG 92056 --- [pool-1-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-1-thread-2
+2020-03-27 15:29:57.279 DEBUG 92056 --- [pool-1-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-1-thread-3
+2020-03-27 15:29:57.279 DEBUG 92056 --- [pool-1-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-1-thread-1
+2020-03-27 15:29:57.279 DEBUG 92056 --- [pool-1-thread-2] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-1-thread-2
+2020-03-27 15:29:57.280 DEBUG 92056 --- [pool-1-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-1-thread-4
+2020-03-27 15:29:57.879 DEBUG 92056 --- [pool-1-thread-2] com.boot.ExecuterEg                      : Completed processFive from thread:pool-1-thread-2
+2020-03-27 15:30:25.083  INFO 92056 --- [qtp938405008-17] com.boot.ExecuterEg                      : Calling multithreading example for application= ExecuterEg
+2020-03-27 15:30:25.084 DEBUG 92056 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Start processOne. and calling from thread:pool-2-thread-1
+2020-03-27 15:30:25.084 DEBUG 92056 --- [pool-2-thread-2] com.boot.ExecuterEg                      : Start processTwo. and calling from thread:pool-2-thread-2
+2020-03-27 15:30:25.084 DEBUG 92056 --- [pool-2-thread-3] com.boot.ExecuterEg                      : Start processThree. and calling from thread:pool-2-thread-3
+2020-03-27 15:30:25.085 DEBUG 92056 --- [pool-2-thread-4] com.boot.ExecuterEg                      : Start processFour. and calling from thread:pool-2-thread-4
+2020-03-27 15:30:25.685 DEBUG 92056 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Completed processOne from thread:pool-2-thread-1
+2020-03-27 15:30:25.685 DEBUG 92056 --- [pool-2-thread-2] com.boot.ExecuterEg                      : Completed processTwo from thread:pool-2-thread-2
+2020-03-27 15:30:25.685 DEBUG 92056 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Start processFive. and calling from thread:pool-2-thread-1
+2020-03-27 15:30:25.686 DEBUG 92056 --- [pool-2-thread-3] com.boot.ExecuterEg                      : Completed processThree from thread:pool-2-thread-3
+2020-03-27 15:30:25.686 DEBUG 92056 --- [pool-2-thread-4] com.boot.ExecuterEg                      : Completed processFour from thread:pool-2-thread-4
+2020-03-27 15:30:26.285 DEBUG 92056 --- [pool-2-thread-1] com.boot.ExecuterEg                      : Completed processFive from thread:pool-2-thread-1
+2020-03-27 15:30:37.262  INFO 92056 --- [RMI TCP Connection(2)-192.168.1.26] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-27 15:30:37.264  INFO 92056 --- [RMI TCP Connection(2)-192.168.1.26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 15:30:37.271  INFO 92056 --- [RMI TCP Connection(2)-192.168.1.26] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@4cc547a{HTTP/1.1, (http/1.1)}{0.0.0.0:8181}
+2020-03-27 15:30:37.271  INFO 92056 --- [RMI TCP Connection(2)-192.168.1.26] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2020-03-27 15:30:37.273  INFO 92056 --- [RMI TCP Connection(2)-192.168.1.26] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-03-27 15:30:37.273  INFO 92056 --- [RMI TCP Connection(2)-192.168.1.26] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@61019f59{application,/,[file:///C:/Users/kapilbhatnagar/AppData/Local/Temp/jetty-docbase.2661378957983337315.8181/],UNAVAILABLE}
