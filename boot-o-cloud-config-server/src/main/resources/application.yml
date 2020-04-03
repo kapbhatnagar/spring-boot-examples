@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kapbhatnagar/spring-boot-examples/tree/master/boot-o-cloud-config-file
+          # username: <your_git_id> [Uncomment in case your repo is private]
+          # password: <your_git_pwd> [Uncomment in case your repo is private]
+          #search-paths:
+           #- 'config*'
+          # we need to see files inside config1 and config2, so user 'config*'
+# yml is another way of writing properties.
