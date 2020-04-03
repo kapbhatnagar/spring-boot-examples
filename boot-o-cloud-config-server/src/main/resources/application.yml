@@ -5,7 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kapbhatnagar/spring-boot-examples/tree/master/boot-o-cloud-config-file
+          skip-ssl-validation: true
+          uri: https://github.com/kapbhatnagar/boot-o-cloud-config-file
           # username: <your_git_id> [Uncomment in case your repo is private]
           # password: <your_git_pwd> [Uncomment in case your repo is private]
           #search-paths:

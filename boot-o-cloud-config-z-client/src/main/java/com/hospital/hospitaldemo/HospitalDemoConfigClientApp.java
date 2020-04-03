@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BootOCloudConfigOClientApplication {
+public class HospitalDemoConfigClientApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootOCloudConfigOClientApplication.class, args);
+		SpringApplication.run(HospitalDemoConfigClientApp.class, args);
 	}
 
 }
