@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: kuberneteseg-b-java-emp-2-add
+  name: mongo
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: kuberneteseg-b-java-emp-2-add
+    spec:
+      containers:
+      - name: mongo
+        image: mongo
+        ports:
+        - containerPort: 27017
+        volumeMounts:
+        - mountPath: /var/lib/mongo
+          name: mongo-database-data-volume
+      restartPolicy: Always
+      volumes:
+      - name: mongo-database-data-volume
+        persistentVolumeClaim:
+          claimName: mongo-database-data-volume

@@ -11,11 +11,23 @@
 (2) Open powershell parallel to Dockerfile path (e.g E:\Workspace\Spring\Code\boot-b-rest-advance)
 (3) Run command to start mysql 5.7 process:
 docker run -d -p 6033:3306 --name=mysql-standalone --env="MYSQL_ROOT_PASSWORD=root" --env="MYSQL_PASSWORD=root" --env="MYSQL_DATABASE=datarest" mysql:5.7
+(or docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 6033:3306 mysql:5.7)
 	Note-> We can connect it with windows mysql workbech by entering host localhost and port 6033
 			But for the docker contains we will ue same 3306 port in application.properties
 (4) Commands to deploy jar
 	4.1 docker build -f Dockerfile -t spring_rest . (spring_rest will be the image name and dot means it will consider current path)
 	4.2 docker run -t --link mysql-standalone:mysql -p 8080:8080 spring_rest (It will execute jar after connecting with mysql process name mysql-standalone)
+	
+Note-> A better alternative to --link is to launch both the applications into a custom docker network.
+	docker network ls
+	docker network create web-application-mysql-network
+	docker inspect web-application-mysql-network
+	 
+	docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:5.7
+	 
+	docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 --network=web-application-mysql-network mysql:5.7
+	 
+	docker inspect web-application-mysql-network
 
 Useful Docker Commands
 ------------------------
