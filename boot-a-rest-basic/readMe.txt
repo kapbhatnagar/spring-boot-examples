@@ -7,3 +7,5 @@
 
 4. If we don't provide method=RequestMethod.GET/POST etc, 
 	@RequestMapping bydefault consider it as GET
+	
+------------

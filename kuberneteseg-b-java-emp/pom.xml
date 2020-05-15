@@ -33,14 +33,26 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency> -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		
+		<!-- Web Client entry starts -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.projectreactor</groupId>
+		    <artifactId>reactor-spring</artifactId>
+		    <version>1.0.1.RELEASE</version>
+		</dependency>
+		<!-- Web Client entry ends -->
 		
 		<!-- JSTL -->
 		<dependency>
@@ -53,6 +65,14 @@
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
+		</dependency>
+		
+		<!-- Dev tools- Provides fast app restart, LiveReload -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
 		</dependency>
 
 		<dependency>
